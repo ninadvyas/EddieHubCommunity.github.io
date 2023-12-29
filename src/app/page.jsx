@@ -7,6 +7,8 @@ import { Moderators } from '@/components/Moderators'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
+import { Founders } from '@/components/Founders'
+import { ScrollToTop } from '@/components/ScrollToTop'
 
 export default function Home() {
   return (
@@ -19,9 +21,11 @@ export default function Home() {
         <Newsletter />
         <Testimonials />
         <Moderators />
+        <Founders />
         <Faqs />
       </main>
       <Footer />
+      <ScrollToTop/>
     </>
   )
 }
